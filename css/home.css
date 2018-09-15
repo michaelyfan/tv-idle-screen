@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  background: rgb(0,0,0);
+  color: white;
+}
+
+#time {
+  font-family: 'Droid Sans Mono';
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+#hour-minute {
+  font-size: 450px;
+  line-height: 90%;
+}
+#am-pm {
+  position: absolute;
+  color: rgb(100,100,100);
+  font-size: 190px;
+}
+#second {
+  color: rgb(100,100,100);
+  font-size: 190px;
+}
+
+#weather {
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+.weather-icon {
+  display: block;
+  margin-bottom: 10px;
+  height: 150px;
+  width: auto;
+}
+#weather-now-icon {
+  height: 200px;
+  width: auto;
+}
+#weather-now {
+  margin-right: 70px;
+}
+#weather-day-title-now {
+  font-size: 40px;
+}
+#weather-now-temperature {
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#weather-future {
+  display: flex;
+}
+.weather-future-day {
+  margin-right: 50px;
+}
+.weather-day-title {
+  font-size: 30px;
+}
+.weather-day-info {
+  font-size: 40px;
+}
+.weather-low-temperature {
+  margin-left: 5px;
+  color: rgb(100,100,100);
+}
